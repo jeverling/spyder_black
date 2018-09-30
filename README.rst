@@ -1,24 +1,24 @@
-spyder-autopep8
-===============
+spyder-black
+============
 
-Project details
----------------
-|gitter| |backers| |sponsors|
-
-.. |gitter| image:: https://badges.gitter.im/spyder-ide/public.svg
-   :target: https://gitter.im/spyder-ide/public
-   :alt: Join the chat at https://gitter.im/spyder-ide/public
-.. |backers| image:: https://opencollective.com/spyder/backers/badge.svg?color=blue
-   :target: #backers
-   :alt: OpenCollective Backers
-.. |sponsors| image:: https://opencollective.com/spyder/sponsors/badge.svg?color=blue
-   :target: #sponsors
-   :alt: OpenCollective Sponsors
 
 Description
 -----------
 
-This is a plugin to run the `autopep8 <https://pypi.python.org/pypi/autopep8>`_ python linter from within the python IDE `spyder <https://github.com/spyder-ide/spyder>`_.
+A plugin to run the `black <https://github.com/ambv/black>`_ python autoformatter from within the python IDE `spyder <https://github.com/spyder-ide/spyder>`_.
+
+It is a fork of the `spyder-autopep8 plugin <https://github.com/spyder-ide/spyder-autopep8>`_, that has been hastily adjusted to call `black <https://github.com/ambv/black>`_ instead of *autopep8*.
+
+
+Install instructions
+--------------------
+
+Installation using pip/setuptools doesn't seem to work for this plugin. Just clone it into your user-plugin directory, e.g.
+::
+
+  cd ~/.config/spyder-py3/plugins
+  git clone https://github.com/jeverling/spyder_black.git
+
 
 
 Important Announcement: Spyder is unfunded!
@@ -44,64 +44,42 @@ If you want to know more about this, please read this
 .. _page: https://github.com/spyder-ide/spyder/wiki/Anaconda-stopped-funding-Spyder
 
 
-Important
----------
-**Spyder** plugin support will be released with version 3.0 (Still in Beta).
-
-If you want to try out this plugin you need to use the latest development version of **Spyder** (**master** branch).
-
-
 Requirements
 ------------
 ::
 
   spyder
-  autopep8
-
-
-Install instructions
---------------------
-
-See https://github.com/spyder-ide/spyder/wiki/User-plugins, but in short:
-
-::
-
-  pip install spyder.autopep8
+  black
 
 
 Usage
 -----
 
-Press Shift+F8 (default) to run autopep8 on the current file or go to ``Source > Run autopep8 code autoformatting``.
+Press Shift+F8 (default) to run `black <https://github.com/ambv/black>`_ on the current file or go to ``Source > Run black code autoformatting``.
 
-If some text is selected, autopep8 will run on this text only.
+Information about the execution will be displayed in the statusbar.
 
-Informations about the execution will be displayed in the statusbar.
-
-Screenshot
-----------
-Autopep8 preferences:
-
-.. image:: img_src/screenshot_preferences.png
 
 Contributing
 ------------
 
 Everyone is welcome to contribute!
 
+
 Backers
 ~~~~~~~
 
-Support us with a monthly donation and help us continue our activities.
+Support sypder with a monthly donation and help them continue their activities.
 
 .. image:: https://opencollective.com/spyder/backers.svg
    :target: https://opencollective.com/spyder#support
    :alt: Backers
 
+
 Sponsors
 ~~~~~~~~
 
-Become a sponsor to get your logo on our README on Github.
+Become a sponsor to get your logo on the spyder README on Github.
 
 .. image:: https://opencollective.com/spyder/sponsors.svg
    :target: https://opencollective.com/spyder#support

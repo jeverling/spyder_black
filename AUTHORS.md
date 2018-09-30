@@ -1,18 +1,20 @@
 Maintainer
 ==========
 
-The [Spyder Development Team](https://github.com/orgs/spyder-ide/teams/core-developers)
+Jesaja Everling ([@jeverling](https://github.com/jeverling))
 
 Main Authors
 ============
 
-Joseph Martinot-Lagarde ([@Nodd](http://github.com/Nodd))
+Joseph Martinot-Lagarde ([@Nodd](https://github.com/Nodd))
 
 Code Contributors
 =================
 
-Joseph Martinot-Lagarde ([@Nodd](http://github.com/Nodd))
+Joseph Martinot-Lagarde ([@Nodd](https://github.com/Nodd))
 
-Gonzalo Peña-Castellanos ([@goanpeca](http://github.com/goanpeca))
+Gonzalo Peña-Castellanos ([@goanpeca](https://github.com/goanpeca))
 
-Steven Silvester ([@blink1073](http://github.com/blink1073))
+Steven Silvester ([@blink1073](https://github.com/blink1073))
+
+Jesaja Everling ([@jeverling](https://github.com/jeverling))
